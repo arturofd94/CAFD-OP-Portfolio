@@ -9,14 +9,20 @@
       rel="stylesheet"
     />
     <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
       rel="shortcut icon"
       href="./assets/IMG/JRZoro-icon.png"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/CSS/styles.css" />
@@ -30,13 +36,81 @@
           <i class="bx bx-menu"> </i
         ></label>
         <nav class="navMenu">
-          <a href="#">Home</a>
-          <a href="#">About me</a>
-          <a href="#">Services</a>
+          <a href="#Home">Home</a>
+          <a href="#About">About me</a>
           <a href="#">Hard & Soft Skills</a>
+          <a href="#">Services</a>
           <a href="#">Contacto</a>
         </nav>
       </div>
     </header>
+    <section class="hero" id="Home">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1>I'm <span>Arturo de la Fuente</span></h1>
+          <p>Web Full-Stack Developer, creando sueños en metas</p>
+        </div>
+        <div class="hero__image">
+          <img src="./assets/IMG/magicpattern-blob-1651973584597.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="about" id="About">
+      <div class="about__container">
+        <h2>About me</h2>
+        <div class="about__text">
+          <p>
+            I'm the kind of person that likes to learn a new thing or way to
+            solve everything that needs to be solved. I love to have real
+            conversations and listen what the others have to say.
+          </p>
+          <p>
+            I'm a fan of all of the Harry Potter Wizarding World and Anime/Manga
+            of "One Piece". Please feel free to contact me if you have any kind
+            of question or you just want to have a little chat with me.
+          </p>
+        </div>
+        <div class="about__btn-download">
+          <a
+            href="assets/CV/0_Carlos Arturo de la Fuente Delgado CV english .pdf"
+            download="CV Arturo de la Fuente"
+            ><button class="btn-cv">
+              <i class="bx bx-down-arrow-alt"></i>Download CV
+            </button></a
+          >
+        </div>
+        <div class="about__education">
+          <div class="about__education-UdeG">
+            <img class="UdeG" src="./assets/IMG/UdeG.png" alt="UdeG" />
+            <h2>U de G</h2>
+            <p>2012 - 2020</p>
+            <p>Bachelor's degree, Accountant</p>
+          </div>
+          <div class="about__education-Academlo">
+            <img src="./assets/IMG/logo_academlo.png" alt="Academlo" />
+            <h2>Academlo</h2>
+            <p>2022 - 2022</p>
+            <p>Web Full-Stack program</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="Skills">
+      <div class="skills__Hard-Title">
+        <h2>Hard Skills</h2>
+      </div>
+      <div class="skills__Hard">
+        <div class="skills__Hard-html">
+          <h2><i class="bx bxl-html5"></i></h2>
+        </div>
+        <div class="skills__Hard-CSS">
+          <h2><i class="bx bxl-css3"></i></h2>
+        </div>
+        <div class="skills__Hard-JS">
+          <h2><i class="bx bxl-javascript"></i></h2>
+        </div>
+      </div>
+      <div class="skills__soft"></div>
+    </section>
   </body>
 </html>

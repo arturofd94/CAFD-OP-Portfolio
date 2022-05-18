@@ -3,7 +3,8 @@
 html {
     font-size: 16px;
     box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -14,7 +15,7 @@ html {
 
 body{
     margin: 0;
-    background-color: #58acf4;
+    background-color: #0b3075;
 }
 
 /* ALWAYS */
@@ -23,7 +24,7 @@ body{
 
 .navBar {
     width: 100%;
-    background-color: #105edd;
+    background-color: #0b3075;
     position: sticky;
     top: 0;
     height: 60px;
@@ -43,7 +44,7 @@ body{
     position: absolute;
     top: 60px;
     width: 100%;
-    background-color: #0b3075;
+    background-color: #105edd;  
     padding: 20px 0;
     opacity: 0;
     visibility: hidden;
@@ -83,4 +84,217 @@ color: white;
 .btnCheckbox{
     margin-right: 20px;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .navMenu{
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* NAVBAR */
+
+/*HOME SECTION*/
+
+.hero{
+    min-height: 60vh;
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero__content h1{
+    margin: 15px;
+    font-weight: 400;
+    font-size: 34px;
+    color: #fefefe;
+}
+
+.hero__content h1 span{
+    font-weight: 600;
+    font-size: 40px;
+    color: #f8de3c;
+}
+
+.hero__content p{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.hero__image {
+    width: 100%;
+    height: 400px;
+}
+
+.hero__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*HOME SECTION*/
+
+/*ABOUT SECTION*/
+
+.about {
+    padding: 30px 0;
+}
+
+.about__container{
+    padding: 0 20px;
+}
+
+.about__text {
+    border-left: 3px solid #f8de3c;
+    padding-left: 20px;
+    color: #fefefe;
+}
+
+.about__container h2 {
+    color:#f8de3c;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about__btn-download {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.btn-cv {
+    background-color: #fefefe;
+    color: #0b3075;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-cv:hover {
+    background-color: aquamarine;
+}
+
+/*ABOUT SECTION*/
+
+/*ABOUT EDUCATION SECTION*/
+
+.about__education {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.about__education-UdeG img {
+    width: 80px;
+    height: 80px;
+}
+
+.about__education-UdeG {
+    background-color: #105edd59;
+    width: 50%;
+    padding-right: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px 1px #00000042;
+}
+
+.about__education-UdeG p {
+    color: #fefefe;
+    font-weight: 800;
+}
+
+.about__education-Academlo {
+    background-color: #105edd59;
+    width: 50%;
+    padding-right: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px 1px #00000042;
+}
+
+.about__education-Academlo p {
+    color: #fefefe;
+    font-weight: 800;
+}
+
+/*ABOUT EDUCATION SECTION*/
+
+/*HARD SKILLS SECTION*/
+
+.skills__Hard-Title {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skills__Hard-Title h2 {
+    color: #f8de3c;
+}
+
+.skills {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.skills__Hard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills__Hard-html {
+    color: orangered;
+    background-color: #105fdd3a;
+    font-size: 50px;
+    text-align: center;
+    width: 30%;
+    padding-right: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px 1px #00000042;
+}
+
+.skills__Hard-CSS {
+    color:#105edd;
+    background-color: #105fdd3a;
+    font-size: 50px;
+    text-align: center;
+    width: 30%;
+    padding-right: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px 1px #00000042;
+}
+
+.skills__Hard-JS {
+    color: #f8de3c;
+    background-color: #105fdd3a;
+    font-size: 50px;
+    text-align: center;
+    width: 30%;
+    padding-right: 10px;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px 1px #00000042;
+}
+
+.skills__Hard-html:hover {
+    background-color: rgba(71, 244, 187, 0.637);
+}   
+
+.skills__Hard-CSS:hover {
+    background-color: rgba(71, 244, 187, 0.637);
+}
+
+.skills__Hard-JS:hover {
+    background-color: rgba(71, 244, 187, 0.637);
 }
