@@ -298,3 +298,72 @@ color: white;
 .skills__Hard-JS:hover {
     background-color: rgba(71, 244, 187, 0.637);
 }
+
+/*SOFT SKILLS SECTION*/
+
+.skills__soft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skills__soft-Teamwork {
+    color: #f8de3c;
+    font-size: 25px;
+    width: 20%;
+}
+
+.skills__soft-Teamwork p {
+    color: #fefefe;
+    font-size: 15px;
+}
+
+.skills__soft-under {
+    color: #f8de3c;
+    font-size: 25px;
+    width: 20%;
+}
+
+.skills__soft-under p {
+    color: #fefefe;
+    font-size: 15px;
+}
+
+.skills__soft-analytical {
+    color: #f8de3c;
+    font-size: 25px;
+    width: 20%;
+}
+
+.skills__soft-analytical p {
+    color: #fefefe;
+    font-size: 15px;
+}
+
+.skills__soft-self {
+    color: #f8de3c;
+    font-size: 25px;
+    width: 20%;
+}
+
+.skills__soft-self p {
+    color: #fefefe;
+    font-size: 15px;
+}
+
+.skills__soft-Teamwork:hover {
+   color: aqua;
+}
+
+.skills__soft-self:hover {
+    color: aqua;
+}
+
+.skills__soft-analytical:hover {
+    color: aqua;
+}
+
+.skills__soft-under:hover {
+    color: aqua
+}
