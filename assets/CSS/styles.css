@@ -102,12 +102,29 @@ color: white;
 
 .hero{
     min-height: 60vh;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .hero__container{
     display: flex;
     flex-direction: column;
 }
+
+/* @media (min-width: 768px) {
+
+    .hero__image {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        height: 700px;
+    }
+    
+    .hero__image img {
+        width: 100%;
+        height: 100%;
+    }
+} */
 
 .hero__content{
     display: flex;
@@ -187,6 +204,16 @@ color: white;
     background-color: aquamarine;
 }
 
+@media (min-width: 768px){
+
+    .about__container{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /*ABOUT SECTION*/
 
 /*ABOUT EDUCATION SECTION*/
@@ -241,6 +268,7 @@ color: white;
 
 .skills__Hard-Title h2 {
     color: #f8de3c;
+    text-align: center;
 }
 
 .skills {
@@ -298,6 +326,8 @@ color: white;
 .skills__Hard-JS:hover {
     background-color: rgba(71, 244, 187, 0.637);
 }
+
+/*HARD SKILLS SECTION*/
 
 /*SOFT SKILLS SECTION*/
 
@@ -367,3 +397,160 @@ color: white;
 .skills__soft-under:hover {
     color: aqua
 }
+
+/*SOFT SKILLS SECTION*/
+
+/*MY PORTFOLIO SECTION*/
+
+.portfolio__title h2 {
+    color: #f8de3c;
+    text-align: center;
+}
+
+.portfolio__proyects {
+    width: 100%;
+}
+
+.portfolio__proyects1 img {
+    border-radius: 10%;
+    height: 350px;
+    transition: 0.3s;
+}
+
+.portfolio__proyects1 {
+   display: flex;
+   justify-content: center;
+}
+
+.portfolio__proyects2-3 {
+    width: 100%;
+    display: flex;
+}
+
+.portfolio__proyects2-3 img {
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.proyect2 {
+    width: 50%;
+    height: 350px;
+    padding: 6px 6px;
+    transition: 0.3s;
+}
+
+.proyect3 {
+    width: 50%;
+    height: 350px;
+    padding: 6px 6px;
+    transition: 0.3s;
+}
+
+.portfolio__proyects4 {
+    display: flex;
+    justify-content: center;
+ }
+
+ .portfolio__proyects4 img {
+    border-radius: 10%;
+    height: 350px;
+    transition: 0.3s;
+}
+
+.portfolio__proyects4 img:hover {
+    border-radius: 10%;
+    height: 390px;
+}
+
+.proyect2:hover {
+    width: 50%;
+    height: 390px;
+    padding: 6px 6px;
+}
+
+.proyect3:hover {
+    width: 50%;
+    height: 390px;
+    padding: 6px 6px;
+}
+
+.portfolio__proyects1 img:hover {
+    border-radius: 10%;
+    height: 390px;
+}
+
+/*MY PORTFOLIO SECTION*/
+
+/*SOCIAL MEDIA SECTION*/
+
+.contacto__social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto_title h2 {
+    margin-bottom: 0;
+    color: #f8de3c;
+    text-align: center;
+}
+
+.contacto__social-media-in h3 {
+    margin-top: 5px;
+    color:#105edd;
+    font-size: 45px;
+    transition: 0.3s;
+}
+
+.contacto__social-media-git h3 {
+    margin-top: 40px;
+    color: #ddcf10ce;
+    font-size: 45px;
+    transition: 0.3s;
+}
+
+.contacto__social-media-mail h3 {
+    margin-top: 80px;
+    color: #dd1039d3;
+    font-size: 45px;
+    transition: 0.3s;
+}
+
+.contacto__social-media-in h3:hover {
+    margin-top: 5px;
+    color:#3a79df;
+    font-size: 65px;
+}
+
+.contacto__social-media-git h3:hover {
+    margin-top: 40px;
+    color: #f3ea6af7;
+    font-size: 65px;
+}
+
+.contacto__social-media-mail h3:hover {
+    margin-top: 80px;
+    color: #fa5b7bd3;
+    font-size: 65px;
+}
+
+/*SOCIAL MEDIA SECTION*/
+
+/*FOOTER SECTION*/
+
+.footer_portfolio {
+    width: 100%;
+    height: 100px;
+    background-color: #105edd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_portfolio h2 {
+    color: #f8de3c;
+}
+
+/*FOOTER SECTION*/
+
+/*@Medias*/
